@@ -1,0 +1,3 @@
+[tool_code]
+print(default_api.github_create_repository(autoInit = True, description = "A RAG-based application using ChromaDB, LangChain, Internet Search, Document Creation, and FastAPI.", name = "rag-chromadb-langchain-fastapi", private = False))
+[/tool_code]
