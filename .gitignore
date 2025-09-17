@@ -1,0 +1,63 @@
+# Ignore Poetry lock and cache files
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller runs. It is recommended to incorporate these templates
+# into your setup.py file. More information: 
+# https://pyinstaller.readthedocs.io/en/stable/workingdirectory.html#working-directory
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+cover/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# C extensions
+*.so
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Other
+*.log
